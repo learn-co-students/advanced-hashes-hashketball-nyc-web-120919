@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe 'hashketball' do
-  binding.pry
 
   describe '#game_hash' do
     let(:top_level_keys) { [:home, :away] }
@@ -249,7 +248,7 @@ end
 
 # If you'd like to work on the bonus, uncomment these tests.
 
-describe 'bonus' do
+=begin describe 'bonus' do
 
   describe '#most_points_scored' do
 
@@ -288,3 +287,4 @@ describe 'super bonus' do
   end
 
 end
+=end
